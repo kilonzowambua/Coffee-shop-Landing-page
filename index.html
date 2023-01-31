@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe shop Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--Fonts family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Boostrap SVG-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--Header start-->
+
+    <header>
+        <div class="header p-3 position-absolute start-0 top-0 end-0 ">
+            <div class="d-flex justify-content-between align-item center">
+                <a href="/" class="text-decoration-none text-white fs-3 fw-bold">Coffee Shop</a>
+
+
+                <div>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <!--Header end-->
+    <!--Actual Navigation-->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+        <div class="container-fluid">
+            <div class="row align-items-center text-decoration-none col-sm-12">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="#" class="dropdown-item">
+                            <h4><i class="bi bi-house-door-fill"></i> Home </h4>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-item">
+                            <h4><i class="bi bi-diagram-3-fill"></i> About us</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-item">
+                            <h4><i class="bi bi-geo-alt-fill"></i> Contact us</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="navbar-toggler  dropdown_nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+        </div>
+
+        </button>
+
+    </nav>
+
+    <!--Hero section-->
+    <section class="hero">
+        <div class="hero_overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"
+            class="hero_video">
+            <source src="video/coffeeshop2.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero_content h-100 container-custom position-relative">
+            <div class="d-flex h-100  align-items-center hero-content-weight">
+                <div class="text-white">
+                    <h1 class="fw-bold mb-4 hero__heading">Welcome to Coffee Shop</h1>
+                    <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                        eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    </p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Read Me</a>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="#scroll" class="hero-scroll-btn">Explore <i class="bi bi-caret-down-fill"></i></a>
+
+    </section>
+    <a id="scroll"></a>
+ <!--first blog-->
+ <section class="blogs blog--background-color">
+    <div class="container-custom">
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                <img src="images/history1.jpg" class="img-fluid pb-4 blog-img" alt="Our history" width="600" height="300" loading="lazy">
+             </div>
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="blogs_content-width">
+                    <span>01</span>
+                    <h1 class="h2 mb-4">Our history</h1>
+                    <p class="mb-4">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                         there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                          Semantics, a large language ocean. A small river named Duden flows by their place and supplies
+                           
+                          
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+ </section>
+ <!--first blog end-->
+
+
+ <!--Second blog-->
+ <section class="blogs">
+   <div class="container-custom">
+    <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+            <img src="images/history2.jpg" class="img-fluid pb-4 blog-img" alt="Our Mission" width="600" height="300" loading="lazy">
+         </div>
+        <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+            <div class="blogs_content-width">
+                <span>02</span>
+                <h1 class="h2 mb-4">Our Mission</h1>
+                <p class="mb-4">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                     there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                      Semantics, a large language ocean. A small river named Duden flows by their place and supplies
+                       
+                      
+                </p>
+            </div>
+        </div>
+       
+    </div>
+   </div>
+   
+
+ </section>
+ <!--Second blog end-->
+
+ <section class="bg-dark text-white py-4">
+    <div class="container-custom my-4">
+        <div class="row">
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="images/coffeecup1.jpg" class="mb-4 img-fluid" alt="Coffee Cup" width="441" height="248" loading="lazy">
+                <h3>Our Best Cofee Cup</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
+                    sem. Nulla consequat massa  </p>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="images/coffeecup3.jpg" class="mb-4 img-fluid" alt="Coffee Cup" width="441" height="248" loading="lazy">
+                <h3>Our Best Waiters</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
+                    sem. Nulla consequat massa  </p>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="images/coffeecup2.jpg" class="mb-4 img-fluid" alt="Coffee Cup" width="441" height="248" loading="lazy">
+                <h3>Our Best Cofee Presentation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
+                    sem. Nulla consequat massa  </p>
+            </div>
+            
+        </div>
+
+ </section>
+
+ <!--Footer-->
+ <footer class="py-3 my-4">
+    
+    <p class="text-center text-muted">© 2023 Coffee Shop</p>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Our Menu</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+  </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
