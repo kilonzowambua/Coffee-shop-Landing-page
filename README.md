@@ -1,6 +1,8 @@
 #Coffee-shop-Landing-page - Free Bootstrap Page]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/27/original/opt_alp_thumbnail.jpg "Awesome Landing Page")
+![Coffe-shop-Landing-Page](https://user-images.githubusercontent.com/45197930/216103169-f9f95308-d22c-48bf-92af-2682b904623b.png)
+
+
 
 Be amazed by the best looking bootstrap landing page on the web! It comes with 5 beautiful and bright colors. Your new app deserves an amazing page to show all of its features. Clear visual, light colours and beautifully aligned elements - they all try to make the users aware of your great app features!
 
@@ -8,7 +10,7 @@ Build customer confidence by listing your users! Anyone who has used your servic
 
 With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Making use of third app assets should be a must when you design your app. Be sure to let users know they continue to remain connected while using your app!
 
-Grab this free bootstrap landing page and create a beautiful website.
+Grab this free bootstrap landing page and create a beautiful website.!
 
 ## Links:
 
