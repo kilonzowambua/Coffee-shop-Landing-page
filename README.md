@@ -19,7 +19,7 @@ Grab this free bootstrap landing page and create a beautiful website.
 Quick start option:
 
 
-- Clone the repo: `git clone https://github.com/creativetimofficial/awesome-landing-page.git`.
+- Clone the repo: `https://github.com/kilonzowambua/Coffee-shop-Landing-page.git`.
 
 
 ### What's included
